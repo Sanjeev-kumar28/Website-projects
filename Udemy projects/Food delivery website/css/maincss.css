@@ -1,0 +1,13 @@
+/*********   Variables Define ******* */
+:root{
+    --primary-color:red;
+    --secondary-color:green;
+    --third-color:orange;
+    --white-color:white;
+    --text-color:gray;
+    --text-gray:#999;
+    --black-color:#000;
+    --primary-font:'Roboto',sans-serif;
+    --secondary-font:'Quicksand',sans-serif;
+}
+ 

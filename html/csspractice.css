@@ -1,0 +1,33 @@
+.A10{
+    height: 12cm;
+    width: 300px;
+    background-color: #ecd8d8;
+    float: right;
+    clear: both;
+    margin-top: 4cm;
+    margin-right: 2cm;
+    border-color: black;
+    border-radius: 10px;
+}
+.A01{
+    margin: 9px;
+}
+.A02{
+    border-color: black;
+    height: 10cm;
+    width: 260px;
+    margin-left: 15px;
+    border-style: solid;
+
+}
+.A03{
+    border-color: black;
+    height: 1.5cm;
+    width: 248px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    border-style: solid;
+
+    
+}

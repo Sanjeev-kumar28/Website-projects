@@ -1,0 +1,70 @@
+.A1{margin-top: 0.8cm;
+    background-color: sandybrown;
+    height: 1.4cm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: slateblue;
+    text-shadow: springgreen;
+    font-size:small;
+    width: 70%;
+
+}
+.A01{background-color: springgreen;
+    height: 1.2cm;
+    width: 70%;
+
+}
+.A001 > li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+li>a{
+    margin right: 30px;
+}
+button{
+    height:0.7cm;
+    width:2.2cm ;
+    margin-top: 5px;
+    margin right: 20px
+    ;
+}
+button:hover{
+    color: blue;
+    background-color: brown;
+}
+.A02{
+
+}
+.i01{
+    height: 5cm;
+    width: 3cm;
+    border: black;
+    border-width: 5px; 
+    float: left;   
+}
+
+img{ 
+    border-radius: 10%;
+    float:left;
+    margin-right: 10px;
+
+}
+.A03{border: 10px;
+    border-color: black;
+    width: 3cm;
+    height: 20cm;
+    float: right;
+    background-color: chartreuse;
+
+}
+.A04{
+
+}
+
+#s1{
+    float: left;
+}
+.comment{
+    border-color: chocolate;
+    background-color: cyan;
+}

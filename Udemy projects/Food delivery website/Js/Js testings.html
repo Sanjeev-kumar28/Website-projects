@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Programs</title>
+</head>
+<body>
+   
+    <h1>Sanjeev KumaR</h1>
+    <div style="height: content-fit:fit-content width: 12cm;border: solid red;">
+    <script>
+        var a=1;
+        do{
+           document.write("Sanjeev Kumar" +"<br>"+"<hr>");
+           a=a+1;
+        }
+        while(a<=10);
+    </script>
+    <script>
+        for(var a=1; a<=10; a=a+1){
+            document.write("Sanjeev " +"<br>"+"<hr>");
+        }
+    </script>
+    <h2>Find Odd and Even Number</h2>
+    <script>
+        for(var a=1,b=1;a<=100,b<=100;a++,b++){
+            if(a%2==0){
+                document.write("<i>Even number = </i>"+a +"<br>"+"<br>");
+            }else if (b%2!=0){
+                document.write("<i>Odd number = </i>"+b +"<br>"+"<br>");
+             } else {
+                document.write("<h3>Sorry this program is not working well</h3>");
+            }
+        }
+    </script>
+    <h2>Nested Loop</h2>
+    <script>
+        var n=2;
+        var m=6;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=m;j++){
+                document.write(j+"<br>");
+            }
+        }
+    </script>
+    <h1>Arrays</h1>
+    <script>
+        var arr=[1,5,6,8,3,4,5,6,7,8,56,78,6,9,5,6,7,7,8,38];
+        for(var a=0;a<=arr.length;a++){
+        document.write(arr[a]+"<br>");}
+        document.write(arr.length+"<br>");
+        document.write(arr[6]);
+        var c= delete arr[2];
+        document.write(c);
+        document.write(arr+"<br>");
+        arr[0]=90;
+        document.write(arr+"<br>");
+
+    </script>
+    <script>
+         var ar=[1,5,6,8,3,4,5];
+         var n=ar.length;
+         var sum=0;
+         for(var i=0;i<=n-1;i++){
+            sum=sum+ar[i];
+            
+        }
+        document.write("Total sum =" +sum);
+        
+    </script>
+    </div>
+</body>
+</html>

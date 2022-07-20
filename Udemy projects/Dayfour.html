@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day four</title>
+    <style>
+        input{
+            margin-bottom: 30px;
+        }
+        video{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+<centre><h1><strong>Form inputs</strong></h1><hr size="4" width="95%"></centre>
+<form>
+<label>Name</label>
+<input type="text" size="10" placeholder="John Ibrahim"><br>
+<input type="checkbox" checked>
+<label> yes i am agree</label><br>
+<label>Select your color</label>
+<input type="Color"><br>
+<label>Email id</label>
+<input type="email"><br>
+<label>CHoose file</label>
+<input type="file"><br>
+<label>Phone number</label>
+<input type="number"><br>
+<label>Password</label>
+<input type="password"><br>
+<label>Range</label>
+<input type="range"><br>
+<label> Type a Url</label>
+<input type="url"><br>
+<label>Search</label>
+<input type="search"><br>
+<label>Text area</label>
+<input type="text" col="10" row="5"><br>
+<label>Select a payment type</label>
+<select>
+    <option value="">--Selct card type--</option>
+    <option value="Visa ">Visa Card</option>
+    <option value="Master">Master card</option>
+    <option value="Rupee">Ruoee Card</option>
+    <option value="Credit">Credit card</option>
+</select><br><br>
+Enter your CV <input type="password"><br>
+<fieldset>
+    <legend>Gender</legend>
+<label> Select your gender</label><br>
+<input type="radio" name="gender" id="gender">Male<br>
+<input type="radio" name="gender"id="gender">Female<br>
+<input type="radio" name="gender"id="gender">Others<br>
+</fieldset><br>
+<input type="image" name="image" src="image.png" alt="Image not show correctly" style="border: 2px solid red">
+</form><br>
+<h1><strong>Videos</strong></h1><table>
+    <tr>
+<td><video src="Bell Bottom.mp4" width="350px" poster="Narandermodi image.0jpg" controls></video></td>
+<td><video src="Yaar_Tutge.mp4" width="350px" controls muted></video></td>
+<td></td><a href="https://youtu.be/M8vDwlHigJA" target="blank"><i>Mussa wala hit songs</i></a><br>
+<a href="https://youtu.be/e8a4YuRgGdU" target="blank"><i>Karan aujla hit songs</i></a></td>
+</tr>
+</table>
+<hr size="5" width="95%" noshade>
+<button onclick="openYoutube()">click here</button>
+<script>
+    function openYoutube(){
+        var a="Hello Sanjeev Kumar complete your 5th day challenege";
+        document.write(a);
+    }
+</script>
+</body>
+</html>

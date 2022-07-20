@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Array Methods</title>
+</head>
+<body>
+    <script>
+    // Arrays
+    var arr1=["Sanjeev","Rahul","Akshay","Vinay","Kapish"];
+    var arr2=["A","B","C","D",56,45];
+    var arr3=[34,56,45,34,36,27];
+    var arr4=[45,78,69,60,45,46,37];
+    
+    
+    // Arrays methods sorting and revese
+     var a=arr1.sort();
+     document.write(a+"<br>");
+    var b=arr2.reverse();
+    document.write(b+"<br>");
+
+    // pop and shift
+    arr2.pop();
+    document.write(arr2+"<br>");
+    arr1.shift();
+    document.write(arr1+"<br>");
+
+    //  push and unshift
+    arr1.push("Rajeev","Sunny");
+    document.write(arr1+"<br>");
+    arr2.unshift("As","DM");
+    document.write(arr2+"<br>");
+
+    // concat and join
+    var d=arr1.concat(arr4,arr3);
+    document.write(d+"<br>");
+
+    var s=arr1.join("<br>");
+    document.write(s+"<br>");
+
+    //Slice and splice
+    var slice =arr1.slice(2,5);
+    document.write(slice+"<br>");
+     var sl=arr1.slice(3);
+    document.write(sl+"<br>");
+    var splice= arr1.splice(2,2,"Vishnu","Harinder");
+    document.write(splice+"<br>");
+    document.write(arr1+"<br>");
+    var spli= arr1.splice(1,2);
+    document.write(spli+"<br>");
+    document.write(arr1+"<br>");
+    </script><br><hr size="2" width="90%">
+    <h2>Advance In Array</h2>
+    <script>
+     var arr7=["Sanjeev","Rahul","Akshay","Vinay","Kapish"];
+    var indexof=arr7.indexOf("Vinay",0);
+    document.write(indexof);
+    </script>
+    <h1>Some and Every</h1>
+    <script>
+    const fruits = ['apple', 'banana', 'mango', 'guava'];
+    var arr;
+    var val;
+    var arrVal;
+    function checkAvailability(arr,val)
+      {
+          return arr.some(function(arrVal) {
+              return val === arrVal;
+            });
+        }
+        checkAvailability(fruits, 'kela');   // false
+        checkAvailability(fruits, 'banana'); // true
+
+    </script>
+</body>
+</html>
